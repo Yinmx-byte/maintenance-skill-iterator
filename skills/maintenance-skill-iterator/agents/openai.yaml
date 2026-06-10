@@ -1,0 +1,4 @@
+interface:
+  display_name: "检修 Skill 自迭代"
+  short_description: "基于生成 DOCX 对比历史方案并迭代检修 Skill。"
+  default_prompt: "基于参考检修方案评估生成 DOCX，反推来源 Skill 的改进建议，并按需进行多轮迭代。"

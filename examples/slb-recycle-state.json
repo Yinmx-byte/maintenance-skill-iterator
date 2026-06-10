@@ -1,0 +1,18 @@
+{
+  "background": "外网统一车辆系统存在空闲 SLB 实例，项目组已确认无业务流量，需通过本次检修回收该空闲 SLB 实例。",
+  "maintenance_type": "配置变更",
+  "network": "外网",
+  "location": "国网亦庄数据中心二期运维专区",
+  "instances": "外网统一车辆系统空闲 SLB 实例：slb-unicar-idle-01；组织：总部直属单位；资源集：统一车辆外网资源集；监听：80/443；后端服务器组已清空；DNS/业务入口已解绑。",
+  "schedule_year": "2026年",
+  "schedule_start": "2026年06月10日 22:00",
+  "schedule_end": "2026年06月10日 23:00",
+  "provider": "张三",
+  "executor": "李四",
+  "reviewer": "王五",
+  "security_officer": "赵六",
+  "ascm_account": "ascm_ops_unicar",
+  "bastion_account": "bastion_ops_unicar",
+  "ops_detail": "重点写清楚释放前确认监听无流量、DNS 和业务入口已解绑、释放后业务访问无异常。",
+  "tech_params": "SLB 实例名称 slb-unicar-idle-01，网络类型外网，监听端口 80/443，目标动作：回收空闲 SLB。"
+}
