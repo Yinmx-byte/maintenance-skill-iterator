@@ -7,6 +7,8 @@ __pycache__/
 venv/
 iterator-output/
 *.docx
+*.rar
+*.zip
 *.jsonl
 *.log
 .env
